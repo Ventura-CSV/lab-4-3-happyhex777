@@ -9,7 +9,9 @@ def main():
     for i in range(len(numbers)): #loop through the index of the list
         numbers[i] = int(input('Enter a value '))
     for num in numbers:
+    # "for" = loop."num" is the new variable created. Translation: num is looping in numbers
         total += num
+    #total is being added to num to find the total number.
     print(total)
     
 
